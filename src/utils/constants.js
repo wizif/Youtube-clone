@@ -3,3 +3,8 @@ export const YOUTUBE_VIDEOS_API = `https://youtube.googleapis.com/youtube/v3/vid
 
 export const YOUTUBE_SEARCH_API = (query) =>
   `https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=${query}`;
+
+
+
+export const LIVE_CHAT_COUNT = 25;
+// Live Chat >>>> Infinite Scroll >>>>>> Pagination

@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { useSearchParams } from "react-router-dom";
 import { closeMenu } from "../utils/appSlice";
 import CommentsContainer from "./CommentsContainer";
-// import LiveChat from "./LiveChat";
+import LiveChat from "./LiveChat";
 
 const WatchPage = () => {
   const [searchParams] = useSearchParams();
@@ -27,7 +27,7 @@ const WatchPage = () => {
           ></iframe>
         </div>
         <div className="w-full">
-          {/* <LiveChat /> */}
+          <LiveChat />
         </div>
       </div>
       <CommentsContainer />
