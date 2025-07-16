@@ -45,7 +45,7 @@ const LiveChat = () => {
 
           dispatch(
             addMessage({
-              name: "Akshay Saini",
+              name: "Arvind singh",
               message: liveMessage,
             })
           );
@@ -60,7 +60,7 @@ const LiveChat = () => {
             setLiveMessage(e.target.value);
           }}
         />
-        <button className="px-2 mx-2 bg-green-100">Send</button>
+        <button className="px-2 mx-2 bg-green-200">Send</button>
       </form>
     </>
   );
